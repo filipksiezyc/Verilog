@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Mon Apr 13 16:13:50 2020
+# Process ID: 5332
+# Current directory: C:/Users/Filip/Desktop/FKSIEZYC/FKsiezyc_VGAPROJECT/FilipKsiezyc_projekt_vga
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2460 C:\Users\Filip\Desktop\FKSIEZYC\FKsiezyc_VGAPROJECT\FilipKsiezyc_projekt_vga\FilipKsiezyc_projekt_vga.xpr
+# Log file: C:/Users/Filip/Desktop/FKSIEZYC/FKsiezyc_VGAPROJECT/FilipKsiezyc_projekt_vga/vivado.log
+# Journal file: C:/Users/Filip/Desktop/FKSIEZYC/FKsiezyc_VGAPROJECT/FilipKsiezyc_projekt_vga\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Filip/Desktop/FKSIEZYC/FKsiezyc_VGAPROJECT/FilipKsiezyc_projekt_vga/FilipKsiezyc_projekt_vga.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'impl_1' not found
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.3/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 749.727 ; gain = 72.719
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 13 16:19:42 2020...

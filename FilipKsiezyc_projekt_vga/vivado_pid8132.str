@@ -1,0 +1,592 @@
+/*
+
+Xilinx Vivado v2017.3 (64-bit) [Major: 2017, Minor: 3]
+SW Build: 2018833 on Wed Oct  4 19:58:22 MDT 2017
+IP Build: 2016188 on Wed Oct  4 21:52:56 MDT 2017
+
+Process ID: 8132
+License: Customer
+
+Current time: 	Tue Mar 24 16:37:56 CET 2020
+Time zone: 	Central European Time (Europe/Belgrade)
+
+OS: Windows 8.1
+OS Version: 6.3
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1280x720
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 306 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2017.3/tps/win64/jre
+JVM executable location: 	C:/Xilinx/Vivado/2017.3/tps/win64/jre/bin/java.exe
+
+User name: 	Filip
+User home directory: C:/Users/Filip
+User working directory: C:/Users/Filip/Desktop/FKSIEZYC/FKsiezyc_VGAPROJECT/FilipKsiezyc_projekt_vga
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2017.3
+RDI_DATADIR: C:/Xilinx/Vivado/2017.3/data
+RDI_BINDIR: C:/Xilinx/Vivado/2017.3/bin
+
+User preferences location: C:/Users/Filip/AppData/Roaming/Xilinx/Vivado
+Vivado preferences directory: C:/Users/Filip/AppData/Roaming/Xilinx/Vivado/2017.3/vivado.xml
+Vivado layouts directory: C:/Users/Filip/AppData/Roaming/Xilinx/Vivado/2017.3/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2017.3/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Filip/Desktop/FKSIEZYC/FKsiezyc_VGAPROJECT/FilipKsiezyc_projekt_vga/vivado.log
+Vivado journal file location: 	C:/Users/Filip/Desktop/FKSIEZYC/FKsiezyc_VGAPROJECT/FilipKsiezyc_projekt_vga/vivado.jou
+Engine tmp dir: 	C:/Users/Filip/Desktop/FKSIEZYC/FKsiezyc_VGAPROJECT/FilipKsiezyc_projekt_vga/.Xil/Vivado-8132-FilipPC
+
+GUI allocated memory:	174 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 512 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 46 MB (+45928kb) [00:00:07]
+// [Engine Memory]: 484 MB (+356055kb) [00:00:07]
+// bs (cl):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Filip\Desktop\FKSIEZYC\FKsiezyc_VGAPROJECT\FilipKsiezyc_projekt_vga\FilipKsiezyc_projekt_vga.xpr. Version: Vivado v2017.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/Filip/Desktop/FKSIEZYC/FKsiezyc_VGAPROJECT/FilipKsiezyc_projekt_vga/FilipKsiezyc_projekt_vga.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 66 MB (+18072kb) [00:00:12]
+// [Engine Memory]: 559 MB (+53334kb) [00:00:12]
+// [GUI Memory]: 77 MB (+8057kb) [00:00:14]
+// [Engine Memory]: 594 MB (+7041kb) [00:00:14]
+// Tcl Message: open_project C:/Users/Filip/Desktop/FKSIEZYC/FKsiezyc_VGAPROJECT/FilipKsiezyc_projekt_vga/FilipKsiezyc_projekt_vga.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.3/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 602 MB. GUI used memory: 39 MB. Current time: 3/24/20 4:38:03 PM CET
+// Project name: FilipKsiezyc_projekt_vga; location: C:/Users/Filip/Desktop/FKSIEZYC/FKsiezyc_VGAPROJECT/FilipKsiezyc_projekt_vga; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 792.020 ; gain = 74.332 
+dismissDialog("Open Project"); // bs (cl)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (vga_example.v) elapsed time: 0.2s
+// Elapsed time: 132 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_example (vga_example.v)]", 1, true); // B (D, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_example (vga_example.v)]", 1, true, false, false, false, false, true); // B (D, cl) - Double Click - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // u (O, cl) - Node
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// x (cl): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (x)
+// bs (cl):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // x (cl)
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a35tcpg236-1 Top: vga_example 
+// [Engine Memory]: 643 MB (+19914kb) [00:02:40]
+// HMemoryUtils.trashcanNow. Engine heap size: 660 MB. GUI used memory: 41 MB. Current time: 3/24/20 4:40:28 PM CET
+// [Engine Memory]: 682 MB (+8075kb) [00:02:45]
+// [Engine Memory]: 753 MB (+38139kb) [00:02:50]
+// TclEventType: ELABORATE_FINISH
+// [Engine Memory]: 871 MB (+84376kb) [00:02:55]
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// HMemoryUtils.trashcanNow. Engine heap size: 951 MB. GUI used memory: 40 MB. Current time: 3/24/20 4:40:43 PM CET
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 953 MB. GUI used memory: 40 MB. Current time: 3/24/20 4:40:44 PM CET
+// [Engine Memory]: 954 MB (+41556kb) [00:02:57]
+// TclEventType: DESIGN_NEW
+// Xgd.load filename: C:/Xilinx/Vivado/2017.3/data/parts/xilinx/artix7/devint/artix7/xc7a35t/xc7a35t.xgd; ZipEntry: xc7a35t_detail.xgd elapsed time: 0.9s
+// [GUI Memory]: 81 MB (+181kb) [00:02:58]
+// [Engine Memory]: 1,045 MB (+44644kb) [00:02:58]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 1.3s
+// Schematic: addNotify
+// [GUI Memory]: 85 MB (+684kb) [00:03:01]
+// PAPropertyPanels.initPanels (vga_example.v) elapsed time: 0.2s
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 868.676 ; gain = 70.801 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: 	Parameter CAPACITANCE bound to: DONT_CARE - type: string  	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string  	Parameter IBUF_LOW_PWR bound to: TRUE - type: string  	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string  	Parameter IOSTANDARD bound to: DEFAULT - type: string  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'IBUF' (1#1) [C:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:19468] INFO: [Synth 8-638] synthesizing module 'MMCME2_ADV' [C:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:25757] 
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'MMCME2_ADV' (2#1) [C:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:25757] INFO: [Synth 8-638] synthesizing module 'BUFG' [C:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:607] INFO: [Synth 8-256] done synthesizing module 'BUFG' (3#1) [C:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:607] INFO: [Synth 8-638] synthesizing module 'BUFGCE' [C:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:617] 
+// Tcl Message: 	Parameter CE_TYPE bound to: SYNC - type: string  	Parameter IS_CE_INVERTED bound to: 1'b0  	Parameter IS_I_INVERTED bound to: 1'b0  
+// Tcl Message: 	Parameter DDR_CLK_EDGE bound to: OPPOSITE_EDGE - type: string  	Parameter INIT bound to: 1'b0  	Parameter IS_C_INVERTED bound to: 1'b0  	Parameter IS_D1_INVERTED bound to: 1'b0  	Parameter IS_D2_INVERTED bound to: 1'b0  	Parameter SRTYPE bound to: SYNC - type: string  
+// Tcl Message: 	Parameter SYSCLK_FREQUENCY_HZ bound to: 100000000 - type: integer  	Parameter CHECK_PERIOD_MS bound to: 500 - type: integer  	Parameter TIMEOUT_PERIOD_MS bound to: 100 - type: integer  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'MouseCtl' (12#1) [C:/Users/Filip/Desktop/FKSIEZYC/FKsiezyc_VGAPROJECT/FilipKsiezyc_projekt_vga/FilipKsiezyc_projekt_vga.srcs/sources_1/new/MouseCtl.vhd:207] INFO: [Synth 8-638] synthesizing module 'draw_rect' [C:/Users/Filip/Desktop/FKSIEZYC/FKsiezyc_VGAPROJECT/FilipKsiezyc_projekt_vga/FilipKsiezyc_projekt_vga.srcs/sources_1/new/draw_rect.v:21] 
+// Tcl Message: 	Parameter X_WIDITH bound to: 10 - type: integer  	Parameter Y_WIDITH bound to: 20 - type: integer  	Parameter COLOUR_SET bound to: 12'b000011111111  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'draw_rect' (13#1) [C:/Users/Filip/Desktop/FKSIEZYC/FKsiezyc_VGAPROJECT/FilipKsiezyc_projekt_vga/FilipKsiezyc_projekt_vga.srcs/sources_1/new/draw_rect.v:21] INFO: [Synth 8-638] synthesizing module 'MouseDisplay' [C:/Users/Filip/Desktop/FKSIEZYC/FKsiezyc_VGAPROJECT/FilipKsiezyc_projekt_vga/FilipKsiezyc_projekt_vga.srcs/sources_1/imports/IMPORT/MouseDisplay.vhd:129] 
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'MouseDisplay' (14#1) [C:/Users/Filip/Desktop/FKSIEZYC/FKsiezyc_VGAPROJECT/FilipKsiezyc_projekt_vga/FilipKsiezyc_projekt_vga.srcs/sources_1/imports/IMPORT/MouseDisplay.vhd:129] 
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'vga_example' (15#1) [C:/Users/Filip/Desktop/FKSIEZYC/FKsiezyc_VGAPROJECT/FilipKsiezyc_projekt_vga/FilipKsiezyc_projekt_vga.srcs/sources_1/imports/IMPORT/vga_example.v:13] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 911.762 ; gain = 113.887 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 911.762 ; gain = 113.887 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Device 21-403] Loading part xc7a35tcpg236-1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/Filip/Desktop/FKSIEZYC/FKsiezyc_VGAPROJECT/FilipKsiezyc_projekt_vga/FilipKsiezyc_projekt_vga.srcs/sources_1/ip/clk_divider/clk_divider.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/vga_example_propImpl.xdc]. Resolution: To avoid this warning, move constraints listed in [.Xil/vga_example_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis. INFO: [Timing 38-2] Deriving generated clocks 
+// Tcl Message: INFO: [Opt 31-141] Inserted 1 OBUFs to IO ports without IO buffers. INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary:   A total of 2 instances were transformed.   BUFGCE => BUFGCTRL: 2 instances  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:31 ; elapsed = 00:00:24 . Memory (MB): peak = 1216.762 ; gain = 418.887 
+// Tcl Message: 44 Infos, 34 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:24 . Memory (MB): peak = 1216.762 ; gain = 418.887 
+// 'dM' command handler elapsed time: 26 seconds
+// Elapsed time: 25 seconds
+dismissDialog("Open Elaborated Design"); // bs (cl)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 1); // k (j, cl)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 1, false, true); // k (j, cl) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // G (Q, cl)
+// [GUI Memory]: 90 MB (+652kb) [00:03:29]
+// [GUI Memory]: 95 MB (+332kb) [00:03:56]
+// PAPropertyPanels.initPanels (my_background (draw_background)) elapsed time: 0.4s
+// [GUI Memory]: 101 MB (+1034kb) [00:04:03]
+// [GUI Memory]: 106 MB (+333kb) [00:04:12]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,072 MB. GUI used memory: 73 MB. Current time: 3/24/20 4:42:08 PM CET
+// Elapsed time: 127 seconds
+selectView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic", 337, 259, 989, 477, false, false, false, true, false); // f (k, cl) - Popup Trigger
+// [GUI Memory]: 116 MB (+4550kb) [00:05:28]
+// Elapsed time: 51 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_example.v", 2); // k (j, cl)
+selectCodeEditor("vga_example.v", 119, 143); // cd (w, cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 24, false); // u (O, cl)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator]", 1); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// x (cl): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (x)
+// bs (cl):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // x (cl)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cl): Launch Runs: addNotify
+// Elapsed time: 80 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'ct' command handler elapsed time: 81 seconds
+dismissDialog("Launch Runs"); // f (cl)
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// bs (cl):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Mar 24 16:45:39 2020] Launched synth_1... Run output will be captured here: C:/Users/Filip/Desktop/FKSIEZYC/FKsiezyc_VGAPROJECT/FilipKsiezyc_projekt_vga/FilipKsiezyc_projekt_vga.runs/synth_1/runme.log [Tue Mar 24 16:45:39 2020] Launched impl_1... Run output will be captured here: C:/Users/Filip/Desktop/FKSIEZYC/FKsiezyc_VGAPROJECT/FilipKsiezyc_projekt_vga/FilipKsiezyc_projekt_vga.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bs (cl)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 3000 ms.
+// ah (cl): Bitstream Generation Completed: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 1,097 MB. GUI used memory: 87 MB. Current time: 3/24/20 4:49:48 PM CET
+// Elapsed time: 249 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+// [Engine Memory]: 1,097 MB (+514kb) [00:12:03]
+dismissDialog("Bitstream Generation Completed"); // ah (cl)
+// Elapsed time: 77 seconds
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 25); // u (O, cl)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 25); // u (O, cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 26, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenu(PAResourceOtoP.ProgramDebugTab_OPEN_RECENTLY_OPENED_TARGET, "Recent Targets"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenu(PAResourceOtoP.ProgramDebugTab_OPEN_RECENTLY_OPENED_TARGET, "Recent Targets"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ac (ai, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bs (cl):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+dismissDialog("Open Hardware Manager"); // bs (cl)
+// bs (cl):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2017.3   **** Build date : Oct  4 2017-20:12:17     ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183711513A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Filip/Desktop/FKSIEZYC/FKsiezyc_VGAPROJECT/FilipKsiezyc_projekt_vga/FilipKsiezyc_projekt_vga.runs/impl_1/vga_example.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0). 
+// [Engine Memory]: 1,630 MB (+500983kb) [00:13:36]
+dismissDialog("Auto Connect"); // bs (cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,632 MB. GUI used memory: 88 MB. Current time: 3/24/20 4:51:23 PM CET
+// Elapsed time: 72 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 26, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ac (ai, cl)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bA (cl): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bA)
+// bs (cl):  Program Device : addNotify
+dismissDialog("Program Device"); // bA (cl)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Filip/Desktop/FKSIEZYC/FKsiezyc_VGAPROJECT/FilipKsiezyc_projekt_vga/FilipKsiezyc_projekt_vga.runs/impl_1/vga_example.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bs (cl)
+// Elapsed time: 12 seconds
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N (Q, cl)
+// [GUI Memory]: 125 MB (+2759kb) [00:15:09]
+selectCodeEditor("vga_example.v", 121, 145); // cd (w, cl)
+// Elapsed time: 28 seconds
+selectCodeEditor("vga_example.v", 159, 193); // cd (w, cl)
+selectCodeEditor("vga_example.v", 119, 214); // cd (w, cl)
+// Elapsed time: 11 seconds
+selectCodeEditor("vga_example.v", 347, 117); // cd (w, cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 23, false); // u (O, cl)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 3); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// am (cl): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (am)
+// bs (cl):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // am (cl)
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// f (cl): Launch Runs: addNotify
+selectButton("PAResourceQtoS.RunBitgen_BITSTREAM_GENERATION_HAS_ALREADY_COMPLETED_OK", "OK"); // JButton (A, G)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'ct' command handler elapsed time: 3 seconds
+// TclEventType: RUN_MODIFY
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bs (cl):  Generate Bitstream : addNotify
+// Tcl Message: reset_run impl_1 -prev_step  
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Tue Mar 24 16:53:53 2020] Launched impl_1... Run output will be captured here: C:/Users/Filip/Desktop/FKSIEZYC/FKsiezyc_VGAPROJECT/FilipKsiezyc_projekt_vga/FilipKsiezyc_projekt_vga.runs/impl_1/runme.log 
+// [GUI Memory]: 131 MB (+528kb) [00:16:07]
+dismissDialog("Generate Bitstream"); // bs (cl)
+// TclEventType: RUN_COMPLETED
+// ah (cl): Bitstream Generation Completed: addNotify
+// Elapsed time: 65 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 26, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ac (ai, cl)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bA (cl): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bA)
+// bs (cl):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bA (cl)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Filip/Desktop/FKSIEZYC/FKsiezyc_VGAPROJECT/FilipKsiezyc_projekt_vga/FilipKsiezyc_projekt_vga.runs/impl_1/vga_example.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 4 seconds
+dismissDialog("Program Device"); // bs (cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,659 MB. GUI used memory: 90 MB. Current time: 3/24/20 4:55:08 PM CET
+// Elapsed time: 18 seconds
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N (Q, cl)
+// RDIResource.RDIViews_PROPERTIES: Hardware Device Properties: close view
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (O, cl) - Node
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 3); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+// RDIResource.RDIViews_PROPERTIES: Source File Properties: close view
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_example (vga_example.v), my_m_display : MouseDisplay(Behavioral) (MouseDisplay.vhd)]", 7, false); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_example (vga_example.v), my_m_display : MouseDisplay(Behavioral) (MouseDisplay.vhd)]", 7, false, false, false, false, false, true); // B (D, cl) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MouseDisplay.vhd", 2); // k (j, cl)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MouseDisplay.vhd", 2, false, true); // k (j, cl) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // R (Q, cl)
+// Elapsed time: 36 seconds
+selectCodeEditor("MouseDisplay.vhd", 84, 219); // cd (w, cl)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_example.v", 1); // k (j, cl)
+selectCodeEditor("vga_example.v", 54, 77); // cd (w, cl)
+selectCodeEditor("vga_example.v", 54, 77, false, false, false, false, true); // cd (w, cl) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MouseDisplay.vhd", 2); // k (j, cl)
+// [GUI Memory]: 138 MB (+309kb) [00:18:55]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_example.v", 1); // k (j, cl)
+selectCodeEditor("vga_example.v", 213, 73); // cd (w, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, cl)
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // ax
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_example (vga_example.v), my_rect : draw_rect (draw_rect.v)]", 6, false); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_example (vga_example.v), my_rect : draw_rect (draw_rect.v)]", 6, false, false, false, false, false, true); // B (D, cl) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, cl)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0, false, true); // k (j, cl) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // R (Q, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, cl)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0, false, true); // k (j, cl) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // R (Q, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "draw_rect.v", 3); // k (j, cl)
+selectCodeEditor("draw_rect.v", 126, 126); // cd (w, cl)
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MouseDisplay.vhd", 2); // k (j, cl)
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 79 seconds
+selectCodeEditor("MouseDisplay.vhd", 15, 231); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 393, 177); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 7, 230); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 415, 185); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 15, 94); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 15, 94, false, false, false, false, true); // cd (w, cl) - Double Click
+// Elapsed time: 34 seconds
+selectCodeEditor("MouseDisplay.vhd", 101, 198); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 85, 216); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 102, 227); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 125, 240); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 120, 332); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 118, 353); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 167, 287); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 92, 253); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 87, 265); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 20, 143); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 17, 264); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 18, 282); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 15, 293); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 17, 317); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 102, 300); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 93, 283); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 61, 263); // cd (w, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,678 MB. GUI used memory: 91 MB. Current time: 3/24/20 4:59:58 PM CET
+selectCodeEditor("MouseDisplay.vhd", 14, 142); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 7, 143); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 19, 163); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 19, 163, false, false, false, false, true); // cd (w, cl) - Double Click
+selectCodeEditor("MouseDisplay.vhd", 15, 165); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 15, 178); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 11, 195); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 11, 167); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 75, 147); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 18, 268); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 19, 281); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 23, 263); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 15, 249); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 17, 230); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 17, 213); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 89, 229); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 77, 264); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 85, 244); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 39, 239); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 67, 294); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 224, 366); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 21, 197); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 35, 94); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 35, 275); // cd (w, cl)
+selectCodeEditor("MouseDisplay.vhd", 11, 195); // cd (w, cl)
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 23, false); // u (O, cl)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug]", 6); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// am (cl): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (am)
+// bs (cl):  Save Constraints : addNotify
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// x (cl): Synthesis is Out-of-date: addNotify
+dismissDialog("Save Project"); // am (cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (x)
+// bs (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // x (cl)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cl): Launch Runs: addNotify
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'ct' command handler elapsed time: 4 seconds
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// bs (cl):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Tue Mar 24 17:01:07 2020] Launched synth_1... Run output will be captured here: C:/Users/Filip/Desktop/FKSIEZYC/FKsiezyc_VGAPROJECT/FilipKsiezyc_projekt_vga/FilipKsiezyc_projekt_vga.runs/synth_1/runme.log [Tue Mar 24 17:01:07 2020] Launched impl_1... Run output will be captured here: C:/Users/Filip/Desktop/FKSIEZYC/FKsiezyc_VGAPROJECT/FilipKsiezyc_projekt_vga/FilipKsiezyc_projekt_vga.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bs (cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, cl)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (cl): Bitstream Generation Completed: addNotify
+// Elapsed time: 195 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 26, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ac (ai, cl)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bA (cl): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bA)
+// bs (cl):  Program Device : addNotify
+dismissDialog("Program Device"); // bA (cl)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Filip/Desktop/FKSIEZYC/FKsiezyc_VGAPROJECT/FilipKsiezyc_projekt_vga/FilipKsiezyc_projekt_vga.runs/impl_1/vga_example.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bs (cl)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183711513A 
+// n (cl): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183711513A 
+// n (cl): Close Hardware Target: addNotify
+// Elapsed time: 293 seconds
+dismissDialog("Close Hardware Target"); // n (cl)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE

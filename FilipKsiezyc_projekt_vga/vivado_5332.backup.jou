@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Mon Apr 13 16:13:50 2020
+# Process ID: 5332
+# Current directory: C:/Users/Filip/Desktop/FKSIEZYC/FKsiezyc_VGAPROJECT/FilipKsiezyc_projekt_vga
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2460 C:\Users\Filip\Desktop\FKSIEZYC\FKsiezyc_VGAPROJECT\FilipKsiezyc_projekt_vga\FilipKsiezyc_projekt_vga.xpr
+# Log file: C:/Users/Filip/Desktop/FKSIEZYC/FKsiezyc_VGAPROJECT/FilipKsiezyc_projekt_vga/vivado.log
+# Journal file: C:/Users/Filip/Desktop/FKSIEZYC/FKsiezyc_VGAPROJECT/FilipKsiezyc_projekt_vga\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Filip/Desktop/FKSIEZYC/FKsiezyc_VGAPROJECT/FilipKsiezyc_projekt_vga/FilipKsiezyc_projekt_vga.xpr
+update_compile_order -fileset sources_1
